@@ -2,6 +2,7 @@ name: Bug
 description: Something is broken or wrong.
 title: "[Bug]: "
 labels: ["bug"]
+type: Bug
 body:
   - type: markdown
     attributes:
