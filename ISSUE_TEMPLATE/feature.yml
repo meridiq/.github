@@ -1,0 +1,26 @@
+name: Feature or task
+description: New work, a change, or a chore.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use IDs only. No names, contact details or patient data.
+  - type: textarea
+    id: what-and-why
+    attributes:
+      label: What and why
+      description: What should change, and what problem does it solve?
+    validations:
+      required: true
+  - type: textarea
+    id: done-when
+    attributes:
+      label: Done when
+      description: How we know it's finished. Clear enough that someone else, or an agent, could build it.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Links, designs, related issues.
