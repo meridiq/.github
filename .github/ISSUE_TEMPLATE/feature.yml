@@ -1,5 +1,6 @@
 name: Feature or task
 description: New work, a change, or a chore.
+projects: ["meridiq/1"]
 body:
   - type: markdown
     attributes:

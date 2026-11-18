@@ -3,6 +3,7 @@ description: Something is broken or wrong.
 title: "[Bug]: "
 labels: ["bug"]
 type: Bug
+projects: ["meridiq/1"]
 body:
   - type: markdown
     attributes:
